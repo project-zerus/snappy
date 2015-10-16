@@ -25,7 +25,7 @@ cc_binary(
   ],
   deps = [
     ':snappy',
-    '//external:gtest_main',
+    '//external:gtest',
     '//external:z',
   ],
   data = glob(["testdata/*"]),

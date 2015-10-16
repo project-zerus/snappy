@@ -1,5 +1,6 @@
 cc_library(
   name = 'snappy',
+  visibility = ['//visibility:public'],
   includes = [
     '.',
   ],

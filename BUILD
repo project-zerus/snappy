@@ -1,6 +1,6 @@
 cc_library(
   name = 'snappy',
-  incs = [
+  export_incs = [
     '.',
   ],
   srcs = [
